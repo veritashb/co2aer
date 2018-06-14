@@ -1,7 +1,7 @@
-# co2aer
-R algorithm to calculate air exchange rates based on CO2 data
+## proc.aer
+#R script to calculate air exchange rates based on CO2 data
 
-The proc_aer calculates air exchange (ACH) values using the tracer gas decay method. Details of this method are available in ASTM Std E-741 and ASTM Std Guide for using indoor CO2 concentrations to evaluate indoor air quality and ventilation.
+The proc.aer calculates air exchange (ACH) values using the tracer gas decay method. Details of this method are available in ASTM Std E-741 and ASTM Std Guide for using indoor CO2 concentrations to evaluate indoor air quality and ventilation.
 
 The function takes a dataframe with the following fields as input:
 - A vector with timestamp (in POSIXct format)
