@@ -1,4 +1,4 @@
-proc.co2v2<-function(data,pid="PID",co2="CO2",time="time",amb=400,output='summary_decay',strikes=0,sharp.peak="no",min.delta=100,back.to.background="yes"){
+proc.co2<-function(data,pid="PID",co2="CO2",time="time",amb=400,output='summary_decay',strikes=0,sharp.peak="no",min.delta=100,back.to.background="yes"){
   #function(data,pid="id",pm="PM2.5",time="time",temp="temp",temp.out="temp.out",log.rate=5,type='summary',period=25,rolling=5,sensitivity=0.5,strikes=0)
   #load libraries
   require(gridExtra)
